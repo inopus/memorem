@@ -1,0 +1,55 @@
+<!doctype html>
+<html manifest="cache.manifest" lang="en">
+	<head>
+		<title>Memorem - v1.8.1</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Simple game of memory color in style Genius Simon in HTML5 (WebApp)">
+		<meta name="keywords" content="Memory, Square, Color, Genius, Simon, HTML5, Web, App">
+		<link rel="author" href="http://rapordo.com/otavio" title="Otávio R. Rossi's page on Rapordo">
+		<script src="js/index.js"></script>
+		<link href="css/index.css" rel="stylesheet" type="text/css" media="all" title="Standard">
+		<link rel="icon" href="img/logo64.png">
+		<meta name="viewport" content="initial-scale=1">
+		<style type="text/css">
+			@viewport {
+				zoom: 1.0;
+			}			
+		</style>
+	</head>
+	<body>
+		<div id="msg"><p id="msgTxt"></p></div>
+		<main>
+			<section id="comecar">
+				<p>
+					Start
+				</p>
+			</section>
+			<section id="jogo">
+				<div>
+					<div class="botao" id="vermelho">&nbsp;</div>
+					<div class="botao" id="verde">&nbsp;</div>
+				</div>
+				<div>
+					<div class="botao" id="azul">&nbsp;</div>
+					<div class="botao" id="amarelo">&nbsp;</div>
+				</div>
+			</section>
+			<section id="informacoes">
+				<h1>You lost</h1>
+				<label for="nome" style="display: block;">Your name:</label>
+				<input type="text" id="nome" placeholder="Name" list="nomes" class="txt">
+				<button id="informacoesGravar" class="btn">Save score</button>
+				<datalist id="nomes"></datalist>
+			</section>
+			<section id="score">
+				<p>
+					Score: <span id="pontos">0</span>
+				</p>
+			</section>
+		</main>
+		<section id="scoreAll">
+			<h1>High score</h1>
+			<ol id="scoreAllLista"></ol>
+		</section>
+	</body>
+</html>

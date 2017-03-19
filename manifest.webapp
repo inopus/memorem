@@ -1,0 +1,29 @@
+{
+	"version": "1.8.3",
+	"name": "Memorem",
+	"description": "Simple game of memory color in style Genius Simon",
+	"launch_path": "/memorem/index.html",
+	"appcache_path": "/memorem/cache.manifest",
+	"type": "web",
+	"icons": {
+		"256": "/memorem/img/logo256.png",
+		"144": "/memorem/img/logo144.png",
+		"128": "/memorem/img/logo128.png",
+		"120": "/memorem/img/logo120.png",
+		"90": "/memorem/img/logo90.png",
+		"64": "/memorem/img/logo64.png",
+		"60": "/memorem/img/logo60.png",
+		"48": "/memorem/img/logo48.png",
+		"32": "/memorem/img/logo32.png",
+		"30": "/memorem/img/logo30.png",
+		"16": "/memorem/img/logo16.png"
+	},
+	"developer": {
+		"name": "Otávio R. Rossi",
+		"url": "http://otavio.rrossi.eti.br"
+	},
+	"chrome": {
+		"navigation": false
+	},
+	"default_locale": "en"
+}

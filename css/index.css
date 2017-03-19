@@ -1,0 +1,123 @@
+#amarelo {
+	background: #ffff00;
+}
+#azul {
+	background: #0000ff;
+}
+#comecar {
+	width: 5em;
+	height: 5em;
+	border: 0.2em outset #f8f8f8;
+	margin: 1em;
+	display: inline-block;
+}
+#comecar:hover {
+	cursor: pointer;
+}
+#comecar:active {
+	border-style: inset;
+}
+#comecar > p {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#informacoes {
+	display: none;
+	text-align: left;
+	padding: 1.2em;
+}
+#informacoes > h1, #informacoes > h2 {
+	text-align: center;
+}
+#jogo {
+	display: none;
+}
+#msg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background: rgba(23, 23, 23, 0.4);
+	margin: 0;
+	color: #f8f8f8;
+	font-size: 12em;
+	font-weight: bold;
+	display: none;
+}
+#msg > p {
+	margin: 0;
+	text-align: center;
+}
+#scoreAll {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#scoreAll > h1 {
+	text-align: center;
+}
+#scoreAll > #scoreAllLista > li {
+	margin: 10px;
+	padding-left: 20px;
+}
+#verde {
+	background: #00ff00;
+}
+#vermelho {
+	background: #ff0000;
+}
+.botao {
+	opacity: 0.3;
+	width: 4.5em;
+	height: 4.5em;
+	margin: 1em;
+	border: 0.2em outset #f8f8f8;
+	display: inline-block;
+	border-radius: 1em;
+}
+.botao:hover {
+	cursor: pointer;
+}
+.btn {
+	padding: 0.3em 0.8em;
+	background: #cdcdb4;
+	background: linear-gradient(#f8f8f8,#bbbbbb);
+	border: 0.1em outset #999999;
+	border-radius: 0.3em;
+	color: #292929;
+}
+.btn:active {
+	border-style: inset;
+	background: #dddddd;
+}
+.btn:hover {
+	color: #090909;
+}
+.limpar:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.txt {
+	font-size: 1em;
+	border: 0.1em solid #505050;
+	padding: 0.3em;
+	border-radius: 0.3em;
+}
+body {
+	color: #f8f8f8;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	background: #505050;
+}
+main {
+	text-align: center;
+	width: 300px;
+	/* box-shadow: 0 0 6px #505050; */
+	margin-left: auto;
+	margin-right: auto;
+}
